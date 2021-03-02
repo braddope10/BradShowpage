@@ -7,11 +7,12 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { composeWithDevtools } from 'redux-devtools-extension' // Use "composeWithDevTools" instead of using -> window.__Redux_devtools
 import App from './components/App'
+import { usersReducer } from './reducers/usersReducer'
 
 // Create a store for redux => createStore 1. reducer 2. dev tools
 
 const store = createStore(
-    rootReducer, 
+    usersReducer, 
     composeWithDevtools(applyMiddleware(thunk))
 )
 
