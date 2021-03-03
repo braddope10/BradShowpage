@@ -1,9 +1,10 @@
 import React from 'react'
+import UsersContainer from './UsersContainer'
 
 const App = () => {
     return (
         <div>
-            Hello World!
+            <UsersContainer />
         </div>
     );
 };
