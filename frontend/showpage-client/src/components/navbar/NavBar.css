@@ -130,6 +130,8 @@
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
+        position: relative;
+        top: -20%
     }
 
     .nav-links-mobile:hover {
