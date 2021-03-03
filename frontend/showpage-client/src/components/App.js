@@ -1,10 +1,10 @@
 import React from 'react'
-import UsersContainer from './UsersContainer'
+import Router from './Router'
 
 const App = () => {
     return (
         <div>
-            <UsersContainer />
+            <Router />
         </div>
     );
 };
