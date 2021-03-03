@@ -2,11 +2,11 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import AboutMe from './AboutMe'
-import ContactInfo from './ContactInfo'
-import Technologies from './Technologies'
-import Projects from './Projects'
+import ContactInfo from './stateless/ContactInfo'
+import Technologies from './stateless/Technologies'
+import Projects from './stateless/Projects'
 import MessageBoard from './MessageBoard'
-import NavBar from './NavBar'
+import NavBar from './navbar/NavBar'
 
 const Router = () => {
     return (
