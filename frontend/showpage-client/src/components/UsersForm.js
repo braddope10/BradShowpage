@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addUser } from '../actions/usersActions'
+import './Internal.css'
 
 
 class UsersForm extends Component {
@@ -27,7 +28,7 @@ class UsersForm extends Component {
 
     render() {   
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className='form-s'>
                 <label>Name:</label>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name="name" />
                 
@@ -52,7 +53,7 @@ class UsersForm extends Component {
                 <br />
                 <br />
 
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="Send Message" className='sub-btn' />
             </form>
         );
     }

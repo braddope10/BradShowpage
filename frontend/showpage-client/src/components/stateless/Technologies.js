@@ -1,8 +1,9 @@
 import React from 'react'
+import '../Internal.css'
 
 const Technologies = () => {
     return (
-        <div>
+        <div className='tech'>
             Technologies go here
         </div>
     );

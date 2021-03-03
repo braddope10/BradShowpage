@@ -1,8 +1,9 @@
 import React from 'react'
+import '../Internal.css'
 
 const ContactInfo = () => {
     return (
-        <div>
+        <div className='contact'>
             Contact Form Goes Here
         </div>
     );

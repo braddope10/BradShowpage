@@ -1,8 +1,9 @@
 import React from 'react'
+import '../Internal.css'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='projects'>
             Projects go here 
         </div>
     );

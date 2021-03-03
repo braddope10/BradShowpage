@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { fetchUsers } from '../actions/usersActions'
 import UsersContainer from './UsersContainer'
 import UsersForm from './UsersForm'
+import './Internal.css'
 
 class MessageBoard extends Component {
     componentDidMount() {
