@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react' //imrc shortcut
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 
