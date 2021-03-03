@@ -1,31 +1,39 @@
-.about-me {
-    margin: 60px 90px;
+/*  START STANDARD */
+
+.classic-text p {
+    margin: 45px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
+    font-size: 2em;
 }
 
-
-
 .projects {
-    margin: 60px 90px;
+    margin: 60px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
+    font-size: 2em;
 }
 
 .tech {
-    margin: 60px 90px;
+    margin: 60px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
+    font-size: 2em;
 }
 
 .contact {
-    margin: 60px 90px;
+    margin: 60px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
+    font-size: 2em;
 }
 
+/* END STANDARD */
+
+
+
 .form-s {
-    margin: 60px 90px;
+    margin: 60px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
 }
@@ -51,13 +59,11 @@
 .wacky-line {
     color: rgb(110, 94, 254);
     font-size: 4em;
-    margin-bottom: 25px;
+    margin: 60px 10px 15px;
     text-align: center;
-
     font-family: Futura, sans-serif;
-	 font-weight: 900;
-	 font-size: 80px;
-	 /* padding: 80px; */
+    font-weight: 900;
+	font-size: 80px;
 }
 @keyframes ani {
         0% {
@@ -87,7 +93,7 @@
     animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
 }
 .wacky-line span:nth-last-child(1n) {
-     animation-delay: -0.1666666667s;
+    animation-delay: -0.1666666667s;
 }
 .wacky-line span:nth-last-child(2n) {
     animation-delay: -0.3333333333s;
@@ -103,5 +109,5 @@
 
 strong {
     font-size: 1.1em;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 2px 3px grey;
 }

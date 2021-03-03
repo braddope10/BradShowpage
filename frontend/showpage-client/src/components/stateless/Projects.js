@@ -3,7 +3,7 @@ import '../Internal.css'
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div className='classic-text'>
             <h1 className='wacky-line'>
                 <span>P</span>
                 <span>R</span>
@@ -15,7 +15,9 @@ const Projects = () => {
                 <span>S</span>
                 <span>!</span>
             </h1>
-            Projects Go Here
+            <p>
+                Projects text goes here
+            </p>
         </div>
     );
 };

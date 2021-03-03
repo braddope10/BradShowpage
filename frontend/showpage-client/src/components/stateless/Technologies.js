@@ -3,7 +3,7 @@ import '../Internal.css'
 
 const Technologies = () => {
     return (
-        <div className='tech'>
+        <div className='classic-text'>
             <h1 className='wacky-line'>
                 <span>T</span>
                 <span>E</span>
@@ -19,7 +19,9 @@ const Technologies = () => {
                 <span>S</span>
                 <span>!</span>
             </h1>
-            Technologies go here
+            <p>
+                Tech text goes here
+            </p>
         </div>
     );
 };

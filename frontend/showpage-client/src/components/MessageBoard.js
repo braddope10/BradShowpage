@@ -11,7 +11,21 @@ class MessageBoard extends Component {
     }
     render() {
         return (
-            <div>
+            
+            <div className='classic-text'>
+                <h1 className='wacky-line'>
+                    <span>M</span>
+                    <span>E</span>
+                    <span>S</span>
+                    <span>S</span>
+                    <span>A</span>
+                    <span>G</span>
+                    <span>E</span>
+                    <br />
+                    <span>M</span>
+                    <span>E</span>
+                    <span>!</span>
+                </h1>
                 <UsersForm />
                 <UsersContainer />
             </div>
