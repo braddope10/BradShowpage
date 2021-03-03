@@ -9,6 +9,7 @@ import { composeWithDevTools } from 'redux-devtools-extension' // Use "composeWi
 import App from './components/App'
 import { rootReducer } from './reducers/rootReducer'
 import { BrowserRouter as Router } from 'react-router-dom'
+import './index.css'
 
 // Create a store for redux => createStore 1. reducer 2. dev tools
 
