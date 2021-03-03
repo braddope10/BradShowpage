@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
 
-export default class UsersForm extends Component {
+class UsersForm extends Component {
+
+    state = {
+        name: '',
+        email: '',
+        company: '',
+        comment: ''
+    }
+
     render() {
         return (
             <div>
@@ -9,3 +17,5 @@ export default class UsersForm extends Component {
         )
     }
 }
+
+export default UsersForm
