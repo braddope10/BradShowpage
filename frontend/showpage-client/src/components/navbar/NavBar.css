@@ -52,6 +52,12 @@
 
 .menu-icon {
     display: none;
+    position: absolute;
+    top: 10px;
+    
+    z-index: 20;
+    width: 26px;
+    height: 38px
 }
 
 @media screen and (max-width: 960px) {
