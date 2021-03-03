@@ -1,12 +1,15 @@
 import React from 'react'
-import MessageBoard from './MessageBoard';
+import NavBar from './NavBar'
 import Router from './Router'
 
 
 const App = () => {
     return (
         <div>
-            <Router />
+            
+            <Router>
+                <NavBar />
+            </Router>
         </div>
     );
 };
