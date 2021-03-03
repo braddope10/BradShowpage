@@ -1,31 +1,107 @@
 .about-me {
-
+    margin: 60px 90px;
+    text-align: left;
+    color: rgb(110, 94, 254);
 }
 
-.projects {
 
+
+.projects {
+    margin: 60px 90px;
+    text-align: left;
+    color: rgb(110, 94, 254);
 }
 
 .tech {
-
+    margin: 60px 90px;
+    text-align: left;
+    color: rgb(110, 94, 254);
 }
 
 .contact {
-
+    margin: 60px 90px;
+    text-align: left;
+    color: rgb(110, 94, 254);
 }
 
 .form-s {
-
+    margin: 60px 90px;
+    text-align: left;
+    color: rgb(110, 94, 254);
 }
 
 .u-text {
-
+    padding: 30px 30px 50px 30px;
+    background: rgb(214, 213, 213);
+    border-style: outset;
+    border-top: 12px solid rgb(233, 228, 228);
+    border-right: 12px solid rgb(146, 145, 145);
+    border-bottom: 12px solid rgb(133, 132, 132);
+    border-left: 12px solid rgb(226, 224, 224);
 }
 
 .sub-btn {
 
 }
 
-h3 {
-    color: rgb(156, 72, 235);
+
+
+/* WACKY LINE CODE: START */
+
+.wacky-line {
+    color: rgb(110, 94, 254);
+    font-size: 4em;
+    margin-bottom: 25px;
+    text-align: center;
+
+    font-family: Futura, sans-serif;
+	 font-weight: 900;
+	 font-size: 80px;
+	 /* padding: 80px; */
+}
+@keyframes ani {
+        0% {
+            transform: translate3d(0, 0, 0);
+            text-shadow: 0em 0em 0 rgba(157, 149, 228, 0.616);
+            color: black;
+       }
+        30% {
+            transform: translate3d(0, 0, 0);
+            text-shadow: 0em 0em 0 rgb(157, 149, 228, 0.616);
+            color: black;
+       }
+        70% {
+            transform: translate3d(0.08em, -0.08em, 0);
+            text-shadow: -0.08em 0.08em rgb(157, 149, 228, 0.616);
+            color: black;
+       }
+        100% {
+            transform: translate3d(0.08em, -0.08em, 0);
+            text-shadow: -0.08em 0.08em rgb(157, 149, 228, 0.616);
+            color: black;
+       }
+}
+.wacky-line span {
+    position: relative;
+    display: inline-block;
+    animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
+}
+.wacky-line span:nth-last-child(1n) {
+     animation-delay: -0.1666666667s;
+}
+.wacky-line span:nth-last-child(2n) {
+    animation-delay: -0.3333333333s;
+}
+.wacky-line span:nth-last-child(3n) {
+    animation-delay: -0.5s;
+}
+    
+/* WACKY LINE CODE: END */
+
+
+
+
+strong {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px grey;
 }
