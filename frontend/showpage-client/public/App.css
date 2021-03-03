@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(102, 124, 136);
+    color: white;
+}
+
+.nav-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/* #commenttextbox {
+    min-height:200px;
+    text-align: top
+} */
+
+.reverse {
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+
+/* .leftPostsForm {
+    display: flex;
+    flex: 1;
+}
+.rightPostsList {
+    flex: 1
+} */
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.centerh3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
