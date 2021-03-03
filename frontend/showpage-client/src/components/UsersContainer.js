@@ -1,13 +1,18 @@
 // This will be our container = data + methods
 
-import React, { Component } from 'react'
+import React from 'react'
+import { connect } from 'react-redux'
 
-const UsersContainer = () => {
+const UsersContainer = ({ users }) => {
     return (
         <div>
-            List of messages here
+            {users.map(user => <ul><li key={user.id}> {user.name} - {user.email} - {user.company} - {user.comment}</li></ul>)}
         </div>
     );
 };
 
-export default UsersContainer
+const mapStateToProps = state => {
+    return { users: state.users }
+}
+
+export default connect(mapStateToProps)(UsersContainer)

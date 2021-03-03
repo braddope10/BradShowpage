@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchUsers } from '../actions/usersActions'
+import UsersContainer from './UsersContainer'
 import UsersForm from './UsersForm'
-
 
 class MessageBoard extends Component {
     componentDidMount() {
@@ -12,6 +12,7 @@ class MessageBoard extends Component {
         return (
             <div>
                 <UsersForm />
+                <UsersContainer />
             </div>
         );
     }
