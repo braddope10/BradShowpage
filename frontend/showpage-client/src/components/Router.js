@@ -2,7 +2,6 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import AboutMe from './AboutMe'
-import UsersContainer from './UsersContainer'
 import ContactInfo from './ContactInfo'
 import Technologies from './Technologies'
 import Projects from './Projects'
