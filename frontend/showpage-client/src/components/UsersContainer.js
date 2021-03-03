@@ -2,8 +2,9 @@
 
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { fetchUsers } from '../actions/usersActions'
 import UsersForm from './UsersForm'
+import { fetchUsers } from '../actions/usersActions'
+
 
 class UsersContainer extends Component {
     componentDidMount() {
@@ -14,7 +15,7 @@ class UsersContainer extends Component {
             <div>
                 <UsersForm />
             </div>
-        )
+        );
     }
 }
 

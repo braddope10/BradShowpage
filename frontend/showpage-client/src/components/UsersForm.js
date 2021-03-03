@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import { addUser } from '../actions/usersActions'
 
 
@@ -17,6 +18,11 @@ class UsersForm extends Component {
         this.setState({
             [name]: value
         })
+    }
+
+    handleSubmit = e => {
+        e.preventDefault()
+        this.props.addUser(this.state)
     }
 
     render() {   
@@ -48,8 +54,8 @@ class UsersForm extends Component {
 
                 <input type="submit" value="Send Message" />
             </form>
-        )
+        );
     }
 }
 
-export default UsersForm;
+export default connect(null, { addUser })(UsersForm);
