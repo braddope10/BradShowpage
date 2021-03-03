@@ -1,8 +1,13 @@
 // This will be our container = data + methods
 
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { fetchUsers } from '../actions/usersActions'
 
-export default class UsersContainer extends Component {
+class UsersContainer extends Component {
+    componentDidMount() {
+        this.props.fetchUsers()
+    }
     render() {
         return (
             <div>
@@ -11,3 +16,5 @@ export default class UsersContainer extends Component {
         )
     }
 }
+
+export default connect(null, { fetchUsers })(UsersContainer)
