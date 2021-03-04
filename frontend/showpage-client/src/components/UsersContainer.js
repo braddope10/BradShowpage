@@ -28,7 +28,9 @@ const UsersContainer = ({ users }) => {
                 <strong><label>Comment:</label></strong>
                 <br />
                 <br />
-                {user.comment}
+                <div>
+                    {user.comment}
+                </div>
                 </li>
             </ol>)}
         </div>

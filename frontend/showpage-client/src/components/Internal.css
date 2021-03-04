@@ -68,19 +68,15 @@
     margin-right: 80px;
     margin-left: 80px;
     color: white;
-    
-
-    /* display: flex;
-    flex-direction: column-reverse; */
+    /* display: flex; */
+    word-break: break-all;
 }
 
-/* .u-text ol {
-    transform: rotate(180deg);
+.each-message div {
+    /* margin-bottom: auto; */
 }
 
-.u-text ol li {
-    transform: rotate(-180deg);
-} */
+
 
 /* END MESSAGE LIST */
 
