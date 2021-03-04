@@ -19,7 +19,6 @@ class UsersForm extends Component {
         this.setState({
             [name]: value
         })
-
         e.target.reset() // Resets value inside input fields when submitted
     }
 

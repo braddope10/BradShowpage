@@ -9,22 +9,27 @@ const UsersContainer = ({ users }) => {
         <div className='u-text'>
             {users.slice(0).reverse().map(user => 
             <ol className='each-message'>
-                <li key={user.id} className='li-list'> 
-                <label>Name</label>
+                <li key={user.id}> 
+                <strong><label>Name:</label></strong>
+                <br />
                 <br />
                 {user.name} 
                 <br /><br />
-                <label>Email</label>
+                <strong><label>Email:</label></strong>
+                <br />
                 <br />
                 {user.email} 
                 <br /><br />
-                <label>Company</label>
+                <strong><label>Company:</label></strong>
+                <br />
                 <br />
                 {user.company} 
                 <br /><br />
-                <label>Comment</label>
+                <strong><label>Comment:</label></strong>
                 <br />
-                {user.comment}</li>
+                <br />
+                {user.comment}
+                </li>
             </ol>)}
         </div>
     );

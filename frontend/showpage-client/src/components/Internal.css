@@ -56,17 +56,18 @@
 
 .each-message {
     padding: 30px 30px 50px 30px;
-    background: rgb(214, 213, 213);
+    background: linear-gradient(150deg, rgb(138, 123, 204) 0%, rgb(138, 138, 153) 100%);
     border-style: outset;
-    border-top: 12px solid rgb(233, 228, 228);
+    border-top: 12px solid rgb(240, 235, 233);
     border-right: 12px solid rgb(146, 145, 145);
     border-bottom: 12px solid rgb(133, 132, 132);
     border-left: 12px solid rgb(226, 224, 224);
     text-align: center;
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: 80px;
     margin-left: 80px;
+    color: white;
     
 
     /* display: flex;
