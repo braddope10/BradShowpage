@@ -19,13 +19,20 @@ class UsersForm extends Component {
         this.setState({
             [name]: value
         })
-        e.target.reset() // Resets value inside input fields when submitted
+        // e.target.reset() // Resets value inside input fields when submitted
     }
 
     handleSubmit = e => {
         e.preventDefault()
         this.props.addUser(this.state)
+        this.setState({
+            name: '',
+            email: '',
+            company: '',
+            comment: ''
+        });
     }
+
 
     render() {   
         return (
@@ -59,7 +66,7 @@ class UsersForm extends Component {
                     <br />
                     <br />
 
-                    <input type="submit" value="Send Message" className='sub-btn' />
+                    <input type="submit" value="Send Message" className='sub-btn' id='textareaInput' />
                 </form>
             </div>
         );
