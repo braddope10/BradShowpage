@@ -7,38 +7,54 @@
     font-size: 2em;
 }
 
-.projects {
-    margin: 60px 190px;
-    text-align: left;
-    color: rgb(110, 94, 254);
-    font-size: 2em;
-}
-
-.tech {
-    margin: 60px 190px;
-    text-align: left;
-    color: rgb(110, 94, 254);
-    font-size: 2em;
-}
-
-.contact {
-    margin: 60px 190px;
-    text-align: left;
-    color: rgb(110, 94, 254);
-    font-size: 2em;
-}
 
 /* END STANDARD */
 
-
+/* START FORM */
 
 .form-s {
-    margin: 60px 190px;
-    text-align: left;
+    /* margin: 60px 190px; */
+    /* text-align: left; */
     color: rgb(110, 94, 254);
+
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
+.comment-box {
+    height: 200px;
+    width: 400px;
+    font-size:14pt;
+}
+
+.reg-box {
+    height: 36px;
+    width: 400px;
+    font-size:14pt;
+}
+
+.bkg-ops {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px ;
+}
+
+/* END FORM */
+
+/* START MESSAGE LIST */
+
 .u-text {
+    margin: 0px 60px;
+}
+
+.each-message {
     padding: 30px 30px 50px 30px;
     background: rgb(214, 213, 213);
     border-style: outset;
@@ -46,11 +62,47 @@
     border-right: 12px solid rgb(146, 145, 145);
     border-bottom: 12px solid rgb(133, 132, 132);
     border-left: 12px solid rgb(226, 224, 224);
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+
+    /* display: flex;
+    flex-direction: column-reverse; */
 }
+
+/* .u-text ol {
+    transform: rotate(180deg);
+}
+
+.u-text ol li {
+    transform: rotate(-180deg);
+} */
+
+/* END MESSAGE LIST */
+
+
+/* START FORM SUBMIT BUTTON */
 
 .sub-btn {
-
+    width: 100%;
+    background-color:  #a87be2;
+    color: white;
+    padding: 16px 120px;
+    margin: 18px 80px, 18px, 80px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
+.sub-btn:hover {
+    color: white;
+    background-color:  #946cc7;
+}
+
+/* END FORM SUBMIT BUTTON */
 
 
 

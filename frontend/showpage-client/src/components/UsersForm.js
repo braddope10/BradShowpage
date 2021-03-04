@@ -19,6 +19,8 @@ class UsersForm extends Component {
         this.setState({
             [name]: value
         })
+
+        e.target.reset() //
     }
 
     handleSubmit = e => {
@@ -28,33 +30,39 @@ class UsersForm extends Component {
 
     render() {   
         return (
-            <form onSubmit={this.handleSubmit} className='form-s'>
-                <label>Name:</label>
-                <input type='text' value={this.state.name} onChange={this.handleChange} name="name" />
-                
-                <br />
-                <br />
+            <div className='bkg-ops'>
+                <form onSubmit={this.handleSubmit} className='form-s'>
+                    <label>Name</label>
+                    <br />
+                    <input type='text' value={this.state.name} onChange={this.handleChange} name="name" className="reg-box" required />
 
-                <label>Email:</label>
-                <input type='text' value={this.state.email} onChange={this.handleChange} name="email" />
-                
-                <br />
-                <br />
+                    <br />
+                    <br />
 
-                <label>Company:</label>
-                <input type='text' value={this.state.company} onChange={this.handleChange} name="company" />
-                
-                <br />
-                <br />
+                    <label>Email</label>
+                    <br />
+                    <input type='text' value={this.state.email} onChange={this.handleChange} name="email" className="reg-box" required />
 
-                <label>Comment:</label>
-                <input type='text' value={this.state.comment} onChange={this.handleChange} name="comment" />
-                
-                <br />
-                <br />
+                    <br />
+                    <br />
 
-                <input type="submit" value="Send Message" className='sub-btn' />
-            </form>
+                    <label>Company</label>
+                    <br />
+                    <input type='text' value={this.state.company} onChange={this.handleChange} name="company" className="reg-box" required />
+
+                    <br />
+                    <br />
+
+                    <label>Comment</label>
+                    <br />
+                    <textarea type='text' value={this.state.comment} onChange={this.handleChange} name="comment" className="comment-box" required />
+
+                    <br />
+                    <br />
+
+                    <input type="submit" value="Send Message" className='sub-btn' />
+                </form>
+            </div>
         );
     }
 }
