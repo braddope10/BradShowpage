@@ -20,6 +20,11 @@ const ContactInfo = () => {
                 <span>!</span>
             </h1>
             <p>
+                <strong>Name</strong>
+                <br />
+                Bradley Lopez - Herrera
+                <br />
+                <br />
                 <strong>Phone</strong>
                 <br />
                 925.989.3480
@@ -30,7 +35,6 @@ const ContactInfo = () => {
                 <div className='email-dec'>
                     <a href="mailto: developerbrad99@gmail.com">developerbrad99@gmail.com</a>
                 </div>
-                <br />
                 <br />
                 <strong>Location</strong>
                 <br />
