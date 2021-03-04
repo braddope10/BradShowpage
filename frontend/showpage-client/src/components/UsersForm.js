@@ -20,7 +20,7 @@ class UsersForm extends Component {
             [name]: value
         })
 
-        e.target.reset() //
+        e.target.reset() // Resets value inside input fields when submitted
     }
 
     handleSubmit = e => {
