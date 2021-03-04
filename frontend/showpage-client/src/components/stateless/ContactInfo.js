@@ -12,8 +12,8 @@ const ContactInfo = () => {
                 <span>A</span>
                 <span>C</span>
                 <span>T</span>
-                <br />
-                <span>I</span>
+                
+                <span className='i-span'>I</span>
                 <span>N</span>
                 <span>F</span>
                 <span>O</span>

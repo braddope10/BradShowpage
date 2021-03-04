@@ -21,8 +21,8 @@ class MessageBoard extends Component {
                     <span>A</span>
                     <span>G</span>
                     <span>E</span>
-                    <br />
-                    <span>M</span>
+                    
+                    <span className='i-span'>M</span>
                     <span>E</span>
                     <span>!</span>
                 </h1>

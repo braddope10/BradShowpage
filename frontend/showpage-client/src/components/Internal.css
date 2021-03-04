@@ -14,7 +14,7 @@
 
 .classic-contact p {
     margin: 45px 190px;
-    text-align: left;
+    text-align: center;
     color: rgb(110, 94, 254);
     font-size: 2em;
 }
@@ -124,6 +124,11 @@
     font-weight: 900;
 	font-size: 80px;
 }
+
+.i-span {
+    margin-left: 40px;
+}
+
 @keyframes ani {
         0% {
             transform: translate3d(0, 0, 0);
