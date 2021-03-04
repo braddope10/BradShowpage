@@ -3,7 +3,7 @@ import '../Internal.css'
 
 const ContactInfo = () => {
     return (
-        <div className='classic-text'>
+        <div className='classic-contact'>
             <h1 className='wacky-line'>
                 <span>C</span>
                 <span>O</span>
@@ -20,7 +20,21 @@ const ContactInfo = () => {
                 <span>!</span>
             </h1>
             <p>
-                Contact info text goes here
+                <strong>Phone</strong>
+                <br />
+                925.989.3480
+                <br />
+                <br />
+                <strong>Email</strong>
+                <br />
+                <div className='email-dec'>
+                    <a href="mailto: developerbrad99@gmail.com">developerbrad99@gmail.com</a>
+                </div>
+                <br />
+                <br />
+                <strong>Location</strong>
+                <br />
+                Las Vegas, NV
             </p>
         </div>
     );

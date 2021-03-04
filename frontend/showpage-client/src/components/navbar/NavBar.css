@@ -31,15 +31,16 @@
 }
 
 .nav-links {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: rgb(62, 59, 121);
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: #fff;
 }
 
 .fa-bars {
@@ -78,11 +79,12 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: linear-gradient(90deg, rgb(44, 43, 54) 0%, rgb(64, 60, 146) 100%);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        color: white;
     }
 
     .nav-links {
@@ -93,8 +95,10 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
-        border-radius: 0;
+        background-color: rgb(47, 45, 92);
+        /* border-radius: 0; */
+        border-radius: 4px;
+        transition: all 0.2s ease-out;
     }
 
     .navbar-logo {

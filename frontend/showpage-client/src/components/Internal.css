@@ -7,8 +7,25 @@
     font-size: 2em;
 }
 
-
 /* END STANDARD */
+
+
+/* START CONTACT  */
+
+.classic-contact p {
+    margin: 45px 190px;
+    text-align: left;
+    color: rgb(110, 94, 254);
+    font-size: 2em;
+}
+
+.email-dec a {
+    color:rgb(189, 132, 235);
+    text-decoration: none;
+}
+
+/* END CONTACT */
+
 
 /* START FORM */
 
@@ -68,15 +85,8 @@
     margin-right: 80px;
     margin-left: 80px;
     color: white;
-    /* display: flex; */
     word-break: break-all;
 }
-
-.each-message div {
-    /* margin-bottom: auto; */
-}
-
-
 
 /* END MESSAGE LIST */
 
