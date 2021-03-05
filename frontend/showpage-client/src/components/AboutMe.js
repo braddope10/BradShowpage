@@ -1,6 +1,9 @@
 import React from 'react'
 import './Internal.css'
 
+import ImageSlider from '../slider/ImageSlider'
+import { SliderData } from '../slider/SliderData';
+
 const AboutMe = () => {
     return (
         <div className='classic-text'>
@@ -30,6 +33,7 @@ const AboutMe = () => {
                 where I learned valuable professional skills such as customer 
                 needs assessment, record management, and workflow planning.
             </p>
+            <ImageSlider slides={SliderData} />
         </div>
     );
 };
