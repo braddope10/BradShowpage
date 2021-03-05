@@ -20,10 +20,6 @@ export const SliderData = [
         alt: 'image one'
     },
     {
-        image: './images/night-6',
-        alt: 'image one'
-    },
-    {
         image: './images/personal-1',
         alt: 'image one'
     },
