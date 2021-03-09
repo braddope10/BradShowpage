@@ -1,17 +1,14 @@
 /*  START STANDARD */
-
 .classic-text p {
     margin: 45px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
     font-size: 2em;
 }
-
 /* END STANDARD */
 
 
 /* START CONTACT  */
-
 .classic-contact p {
     margin: 45px 190px;
     text-align: center;
@@ -23,12 +20,11 @@
     color: rgb(110, 94, 254);
     text-decoration: none;
 }
-
 /* END CONTACT */
 
 
-/* START FORM */
 
+/* START FORM */
 .form-s {
     /* margin: 60px 190px; */
     /* text-align: left; */
@@ -62,11 +58,11 @@
     text-align: center;
     margin: 20px ;
 }
-
 /* END FORM */
 
-/* START MESSAGE LIST */
 
+
+/* START MESSAGE LIST */
 .u-text {
     margin: 0px 60px;
 }
@@ -87,12 +83,10 @@
     color: white;
     word-break: break-all;
 }
-
 /* END MESSAGE LIST */
 
 
 /* START FORM SUBMIT BUTTON */
-
 .sub-btn {
     width: 100%;
     background-color:  #7046a7;
@@ -108,13 +102,11 @@
     color: white;
     background-color: rgb(64, 60, 146);
 }
-
 /* END FORM SUBMIT BUTTON */
 
 
 
 /* WACKY LINE CODE: START */
-
 .wacky-line {
     color: rgb(110, 94, 254);
     font-size: 4em;
@@ -151,27 +143,44 @@
             color: black;
        }
 }
+
 .wacky-line span {
     position: relative;
     display: inline-block;
     animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
 }
+
 .wacky-line span:nth-last-child(1n) {
     animation-delay: -0.1666666667s;
 }
+
 .wacky-line span:nth-last-child(2n) {
     animation-delay: -0.3333333333s;
 }
+
 .wacky-line span:nth-last-child(3n) {
     animation-delay: -0.5s;
 }
-    
 /* WACKY LINE CODE: END */
 
 
-
-
-strong {
+/* ABOUT ME STRONG TAG: START */
+.about-me-strong {
     font-size: 1.1em;
     text-shadow: 1px 2px 3px grey;
 }
+/* ABOUT ME STRONG TAG: END */
+
+
+
+/* QUOTES: START */
+.quotes-strong {
+    
+}
+/* QUOTES: END */
+
+
+
+
+
+

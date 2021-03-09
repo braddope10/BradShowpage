@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import AboutMe from './AboutMe'
 import ContactInfo from './stateless/ContactInfo'
-import Technologies from './stateless/Technologies'
+import CV from './stateless/CV'
 import Projects from './stateless/Projects'
 import MessageBoard from './MessageBoard'
 import NavBar from './navbar/NavBar'
@@ -15,7 +15,7 @@ const Router = () => {
                 <Switch>
                     <Route exact path='/' component={AboutMe} />
                     <Route path='/projects' component={Projects} />
-                    <Route path='/technologies' component={Technologies} />
+                    <Route path='/cv' component={CV} />
                     <Route path='/contact' component={ContactInfo} />
                     <Route path='/messageboard' component={MessageBoard} />
                 </Switch>

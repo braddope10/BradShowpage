@@ -37,7 +37,7 @@
 
 .slide {
     opacity: 0;
-    transition-duration: 1s ease-in-out;
+    transition-duration: 1.5s ease-out;
 }
 
 .slide.active {
