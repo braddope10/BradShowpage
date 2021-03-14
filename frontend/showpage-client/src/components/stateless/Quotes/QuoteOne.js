@@ -4,7 +4,7 @@ import { QuoteItems } from './QuoteItems'
 
 const QuoteOne = () => {
     return (
-        <section>
+        <section className='quote-sec-one'>
             <div className='quote-box quote-style'>
                 <blockquote>
                     <p>

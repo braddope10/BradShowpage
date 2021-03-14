@@ -2,23 +2,23 @@ import React from 'react'
 import '../../Internal.css'
 import { QuoteItems } from './QuoteItems'
 
-const QuoteThree = () => {
+const QuoteFive = () => {
     return (
-        <section className='quote-sec-three'>
+        <section className='quote-sec-five'>
             <div className='quote-box quote-style'>
                 <blockquote>
                     <p>
-                        {QuoteItems[2].quote}
+                        {QuoteItems[4].quote}
                     </p>
                 </blockquote>
             </div>
             <div>
                 <p className='quote-author'>
-                    - {QuoteItems[2].author}
+                    - {QuoteItems[4].author}
                 </p>
             </div>
         </section>
     )
 }
 
-export default QuoteThree;
+export default QuoteFive;

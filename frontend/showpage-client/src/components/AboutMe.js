@@ -8,6 +8,7 @@ import QuoteOne from './stateless/Quotes/QuoteOne'
 import QuoteTwo from './stateless/Quotes/QuoteTwo'
 import QuoteThree from './stateless/Quotes/QuoteThree'
 import QuoteFour from './stateless/Quotes/QuoteFour'
+import QuoteFive from './stateless/Quotes/QuoteFive'
 
 
 
@@ -45,6 +46,7 @@ const AboutMe = () => {
             <QuoteTwo />
             <QuoteThree />
             <QuoteFour />
+            <QuoteFive />
         </div>
     );
 };
