@@ -4,14 +4,20 @@ import { QuoteItems } from './QuoteItems'
 
 const QuoteOne = () => {
     return (
-        <div className='quote-box'>
-            <q className='quote-q'>
-                {QuoteItems[0].quote}
-            </q>
-            <p className='quote-author'>
-                - {QuoteItems[0].author}
-            </p>
-        </div>
+        <section>
+            <div className='quote-box quote-style'>
+                <blockquote>
+                    <p>
+                        {QuoteItems[0].quote}
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <p className='quote-author'>
+                    - {QuoteItems[0].author}
+                </p>
+            </div>
+        </section>
     )
 }
 

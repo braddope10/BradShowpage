@@ -174,15 +174,88 @@
 
 
 /* QUOTES: START */
-/* .quote-box {
-    background-color: rgb(168, 163, 163);
-    margin: 10px 30px;
-    text-align: center;
-}
-
-@import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:300,400,700); */
 
 .quote-box {
+    margin : 20px auto; 
+    padding : 20px; 
+    position : relative; 
+    width : 300px; 
+  } 
+  
+.quote-box p {
+  margin : 0; 
+  padding : 0; 
+}
+
+.quote-box blockquote {
+  margin : 0; 
+  padding : 0; 
+  position : relative; 
+} 
+
+
+
+.quote-style blockquote {
+  padding-top : 150px; 
+} 
+
+.quote-style blockquote:after {
+    background: none repeat scroll 0 0 rgba(235, 150, 108, 0.8);
+    border-radius: 50% 50% 50% 50%;
+    color: rgba(255, 255, 255, 0.5);
+    content: "❞";
+    font-family: 'icons';
+    font-size: 70px;
+    height: 130px;
+    left: 50%;
+    line-height: 130px;
+    margin-left: -65px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    top: 0;
+    width: 130px;
+}
+.quote-style blockquote:before {
+    border-left: 5px solid rgba(235, 150, 108, 0.1);
+    border-radius: 50% 50% 50% 50%;
+    content: "";
+    height: 500px;
+    left: -50px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+    z-index: -1;
+}
+
+.quote-style blockquote p {
+  background : none repeat scroll 0 0 rgba(255, 255, 255, 0.5); 
+  box-shadow : 0 -6px 0 rgba(235, 150, 108, 0.2); 
+  color : rgba(235, 150, 108, 0.8); 
+  display : inline; 
+  font-family : Baskerville, Georgia, serif; 
+  font-style : italic; 
+  font-size : 28px; 
+  line-height : 46px; 
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.5);  
+} 
+
+ .quote-author {
+  color : #D48158; 
+  font-size : 18px; 
+  font-weight : bold; 
+  padding-top : 10px; 
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.1); 
+  text-transform : uppercase; 
+  text-align: center;
+}  
+
+
+
+
+
+
+/* .quote-box {
     margin : 20px auto 200px; 
     padding : 20px; 
     position : relative; 
@@ -243,31 +316,6 @@ q::after {
     text-shadow : 0 1px 1px rgba(255, 255, 255, 0.1); 
     text-transform : uppercase; 
     text-align: center;
-}
+} */
 
-/* q::before {
-    content: '\201C';
-    position: absolute; */
-    /* top: 1em; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* background: #fff; */
-    /* width: 2rem; */
-    /* height: 0rem; */
-    /* font: 6em/1.08em 'PT Sans', sans-serif; */
-    /* color: #666; */
-    /* text-align: left; */
-/* } */
-
-/* q::after { */
-    /* content: "\2013 \2003" attr(cite); */
-    /* display: block; */
-    /* text-align: right; */
-    /* font-size: 0.875 */
-/* } */
-
-/* .quote-author { */
-    /* color: white; */
-    /* text-align: right; */
-/* } */
 /* QUOTES: END */
