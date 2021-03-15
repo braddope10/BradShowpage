@@ -10,8 +10,6 @@ import QuoteThree from './stateless/Quotes/QuoteThree'
 import QuoteFour from './stateless/Quotes/QuoteFour'
 import QuoteFive from './stateless/Quotes/QuoteFive'
 
-
-
 const AboutMe = () => {
     return (
         <div>
