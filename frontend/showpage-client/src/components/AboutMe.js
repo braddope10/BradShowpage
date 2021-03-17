@@ -9,21 +9,37 @@ import QuoteTwo from './stateless/Quotes/QuoteTwo'
 import QuoteThree from './stateless/Quotes/QuoteThree'
 import QuoteFour from './stateless/Quotes/QuoteFour'
 import QuoteFive from './stateless/Quotes/QuoteFive'
+import AboutMeParagraphs from './AboutMeParagraphs';
+
 
 const AboutMe = () => {
     return (
         <div>
             <h1 className='wacky-line'>
-                <span>W</span>
+                <span>H</span>
                 <span>E</span>
                 <span>L</span>
-                <span>C</span>
+                <span>L</span>
                 <span>O</span>
-                <span>M</span>
-                <span>E</span>
                 <span>!</span>
             </h1>
             <p className='classic-about'>
+                <AboutMeParagraphs />
+
+                <br />
+                <br />
+                    <div id="para-one">
+
+                    </div>
+                <br />
+                <br />
+                To view the source code click... 
+                    <a href="https://github.com/braddope10/BradShowpage">
+                        here     
+                    </a>
+                ! 
+                <br />
+                <br />
                 A little about myself. 
                 <br />
                 <br />
@@ -39,8 +55,8 @@ const AboutMe = () => {
                 where I learned valuable professional skills such as customer 
                 needs assessment, record management, and workflow planning.
             </p>
-            <ImageSlider slides={SliderData} />
             <QuoteOne />
+            <ImageSlider slides={SliderData} />
             <QuoteTwo />
             <QuoteThree />
             <QuoteFour />
