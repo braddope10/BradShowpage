@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
+import QuoteThree from './Quotes/QuoteThree'
+
 const CV = () => {
     return (
         <div className='classic-text'>
@@ -12,6 +14,7 @@ const CV = () => {
             <p>
                 Tech text goes here
             </p>
+            <QuoteThree />
         </div>
     );
 };

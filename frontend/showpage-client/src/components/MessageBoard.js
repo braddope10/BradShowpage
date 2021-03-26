@@ -27,6 +27,7 @@ class MessageBoard extends Component {
                     <span>!</span>
                 </h1>
                 <UsersForm />
+
                 <UsersContainer />
             </div>
         );

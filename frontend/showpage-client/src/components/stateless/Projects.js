@@ -1,5 +1,8 @@
 import React from 'react'
 import '../Internal.css'
+import { ReactTinyLink } from 'react-tiny-link'
+
+import QuoteTwo from './Quotes/QuoteTwo'
 
 const Projects = () => {
     return (
@@ -15,9 +18,16 @@ const Projects = () => {
                 <span>S</span>
                 <span>!</span>
             </h1>
-            <p>
-                Projects text goes here
-            </p>
+            <div className="tiny-link">
+                <ReactTinyLink
+                    cardSize="small"
+                    showGraphic={true}
+                    maxLine={2}
+                    minLine={1}
+                    url="https://github.com/braddope10/city_pop"
+                />
+            </div>
+            <QuoteTwo />
         </div>
     );
 };

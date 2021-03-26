@@ -5,11 +5,18 @@ import ImageSlider from '../slider/ImageSlider'
 import { SliderData } from '../slider/SliderData';
 
 import QuoteOne from './stateless/Quotes/QuoteOne'
-import QuoteTwo from './stateless/Quotes/QuoteTwo'
-import QuoteThree from './stateless/Quotes/QuoteThree'
-import QuoteFour from './stateless/Quotes/QuoteFour'
-import QuoteFive from './stateless/Quotes/QuoteFive'
-import AboutMeParagraphs from './AboutMeParagraphs';
+// import QuoteTwo from './stateless/Quotes/QuoteTwo'
+// import QuoteThree from './stateless/Quotes/QuoteThree'
+// import QuoteFour from './stateless/Quotes/QuoteFour'
+// import QuoteFive from './stateless/Quotes/QuoteFive'
+
+import ParagraphOne from './AboutMeParagraphs/ParagraphOne' 
+import ParagraphTwo from './AboutMeParagraphs/ParagraphTwo'
+import ParagraphThree from './AboutMeParagraphs/ParagraphThree'
+import ParagraphFour from './AboutMeParagraphs/ParagraphFour'
+import ParagraphFive from './AboutMeParagraphs/ParagraphFive'
+import ParagraphSix from './AboutMeParagraphs/ParagraphSix'
+import ParagraphSeven from './AboutMeParagraphs/ParagraphSeven'
 
 
 const AboutMe = () => {
@@ -23,44 +30,28 @@ const AboutMe = () => {
                 <span>O</span>
                 <span>!</span>
             </h1>
-            <p className='classic-about'>
-                <AboutMeParagraphs />
+            <ParagraphOne />
+            
+            <ParagraphTwo />
+            
+            <ParagraphThree />
+            
+            <ParagraphFour />
+            
+            <ParagraphFive />
 
-                <br />
-                <br />
-                    <div id="para-one">
-
-                    </div>
-                <br />
-                <br />
-                To view the source code click... 
-                    <a href="https://github.com/braddope10/BradShowpage">
-                        here     
-                    </a>
-                ! 
-                <br />
-                <br />
-                A little about myself. 
-                <br />
-                <br />
-                My name is <strong>Bradley Lopez</strong> , I am a detail-oriented college student currently attending College of Southern Nevada in 
-                Las Vegas for <strong>Computing & Information Technology</strong> where I am in the process of obtaining an associates degree and I also obtain a certification in <strong>Full-Stack 
-                Software Engineering</strong> through a 600+ hour course at Flatiron School.
-                <br />
-                <br />
-                During the course of my academic career, I also managed to accrue nearly 6 years of work experience. 
-                <br />
-                <br />
-                Most recently, I have had the privilege of working for <strong>Lopez Brothers</strong> as an Automotive Technician Assistant, 
-                where I learned valuable professional skills such as customer 
-                needs assessment, record management, and workflow planning.
-            </p>
-            <QuoteOne />
             <ImageSlider slides={SliderData} />
-            <QuoteTwo />
+            
+            <ParagraphSix />
+            
+            <ParagraphSeven />
+            
+            <QuoteOne />
+            
+            {/* <QuoteTwo />
             <QuoteThree />
             <QuoteFour />
-            <QuoteFive />
+            <QuoteFive /> */}
         </div>
     );
 };

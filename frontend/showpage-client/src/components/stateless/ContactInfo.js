@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
+import QuoteFour from './Quotes/QuoteFour'
+
 const ContactInfo = () => {
     return (
         <div>
@@ -40,6 +42,7 @@ const ContactInfo = () => {
                 <br />
                 Las Vegas, NV
             </p>
+            <QuoteFour />
         </div>
     );
 };

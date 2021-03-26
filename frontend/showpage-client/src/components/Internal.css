@@ -3,7 +3,7 @@
     margin: 45px 190px;
     text-align: left;
     color: rgb(110, 94, 254);
-    font-size: 2em;
+    font-size: 20pt;
 }
 /* END STANDARD */
 
@@ -261,7 +261,7 @@
   text-shadow : 0 1px 1px rgba(0, 0, 0, 0.5);  
 } 
 
- .quote-author {
+.quote-author {
   color : #7356c2; 
   font-size : 18px; 
   font-weight : bold; 
@@ -270,5 +270,12 @@
   text-transform : uppercase; 
   text-align: center;
 }  
-
 /* QUOTES: END */
+
+/* START: TINY LINK */
+.tiny-link {
+    text-align: center;
+    border-radius: 50% 50% 50% 50%;
+}
+
+/* END: TINY LINK */
