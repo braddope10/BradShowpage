@@ -274,8 +274,7 @@
 
 /* START: TINY LINK */
 .tiny-link {
-    text-align: center;
-    border-radius: 50% 50% 50% 50%;
+  margin: 60px 25%
 }
 
 /* END: TINY LINK */

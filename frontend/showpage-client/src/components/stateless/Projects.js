@@ -20,11 +20,13 @@ const Projects = () => {
             </h1>
             <div className="tiny-link">
                 <ReactTinyLink
-                    cardSize="small"
+                    cardSize="large"
                     showGraphic={true}
+                    header="Hotel Registry App (SQL, Ruby, RoR, JavaScript, React, Redux)"
+                    description="not much"
                     maxLine={2}
                     minLine={1}
-                    url="https://github.com/braddope10/city_pop"
+                    url="https://github.com/braddope10/reactReduxApp"
                 />
             </div>
             <QuoteTwo />

@@ -48,10 +48,6 @@ const AboutMe = () => {
             
             <QuoteOne />
             
-            {/* <QuoteTwo />
-            <QuoteThree />
-            <QuoteFour />
-            <QuoteFive /> */}
         </div>
     );
 };
