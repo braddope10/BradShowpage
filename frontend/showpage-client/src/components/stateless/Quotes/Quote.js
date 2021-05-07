@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../Internal.css'
-import { QuoteItems } from './QuoteItems'
+// import { QuoteItems } from './QuoteItems'
 
-class QuoteOne extends React.Component {
+class Quote extends React.Component {
     render() {
         return (
             <section className='quote-sec-one'>
@@ -23,4 +23,4 @@ class QuoteOne extends React.Component {
     }
 }
 
-export default QuoteOne;
+export default Quote;
