@@ -6,10 +6,6 @@ import { SliderData } from '../slider/SliderData';
 
 import Quote from './stateless/Quotes/Quote'
 import { QuoteItems } from './stateless/Quotes/QuoteItems'
-// import QuoteTwo from './stateless/Quotes/QuoteTwo'
-// import QuoteThree from './stateless/Quotes/QuoteThree'
-// import QuoteFour from './stateless/Quotes/QuoteFour'
-// import QuoteFive from './stateless/Quotes/QuoteFive'
 
 import ParagraphOne from './AboutMeParagraphs/ParagraphOne' 
 import ParagraphTwo from './AboutMeParagraphs/ParagraphTwo'

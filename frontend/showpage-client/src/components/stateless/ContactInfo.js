@@ -30,12 +30,13 @@ const ContactInfo = () => {
                 <br />
                 <strong>Phone</strong>
                 <br />
-                925.989.3480
-                <br />
+                <div className='link-dec'>
+                    <a href="tel:19259893480">925.989.3480</a>
+                </div>
                 <br />
                 <strong>Email</strong>
                 <br />
-                <div className='email-dec'>
+                <div className='link-dec'>
                     <a href="mailto: developerbrad99@gmail.com">developerbrad99@gmail.com</a>
                 </div>
                 <br />
