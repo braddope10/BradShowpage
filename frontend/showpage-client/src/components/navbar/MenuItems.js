@@ -17,11 +17,6 @@ export const MenuItems = [
     {
         title: 'Contact Info',
         url: '/contact',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Message Board',
-        url: '/messageboard',
         cName: 'nav-links-mobile'
     },
 ]
