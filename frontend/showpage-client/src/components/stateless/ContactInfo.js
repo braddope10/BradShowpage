@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
-import QuoteFour from './Quotes/QuoteFour'
+import Quote from './Quotes/Quote'
+import { QuoteItems } from './Quotes/QuoteItems'
 
 const ContactInfo = () => {
     return (
@@ -42,7 +43,7 @@ const ContactInfo = () => {
                 <br />
                 Las Vegas, NV
             </p>
-            <QuoteFour />
+            <Quote quote={QuoteItems[4].quote} author={QuoteItems[4].author}/>
         </div>
     );
 };

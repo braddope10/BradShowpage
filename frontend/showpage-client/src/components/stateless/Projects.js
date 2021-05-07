@@ -2,7 +2,8 @@ import React from 'react'
 import '../Internal.css'
 import { ReactTinyLink } from 'react-tiny-link'
 
-import QuoteTwo from './Quotes/QuoteTwo'
+import Quote from './Quotes/Quote'
+import { QuoteItems } from './Quotes/QuoteItems'
 
 const Projects = () => {
     return (
@@ -89,7 +90,7 @@ const Projects = () => {
                     url="https://github.com/braddope10/city_pop"
                 />
             </div>
-            <QuoteTwo />
+            <Quote quote={QuoteItems[1].quote} author={QuoteItems[1].author}/>
         </div>
     );
 };

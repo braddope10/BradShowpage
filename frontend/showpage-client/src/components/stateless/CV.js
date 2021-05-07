@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
-import QuoteThree from './Quotes/QuoteThree'
+import Quote from './Quotes/Quote'
+import { QuoteItems } from './Quotes/QuoteItems'
 
 const CV = () => {
     return (
@@ -14,7 +15,7 @@ const CV = () => {
             <p>
                 Tech text goes here
             </p>
-            <QuoteThree />
+            <Quote quote={QuoteItems[2].quote} author={QuoteItems[2].author}/>
         </div>
     );
 };

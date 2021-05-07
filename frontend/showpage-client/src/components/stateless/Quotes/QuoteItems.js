@@ -14,5 +14,9 @@ export const QuoteItems = [
     {
         quote: "Every accomplishment starts with the decision to try.",
         author: "Unknown"
+    },
+    {
+        quote: "Failure is the only opportunity to beginn again.",
+        author: "Uncle Iroh"
     }
 ]

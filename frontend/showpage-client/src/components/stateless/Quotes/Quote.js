@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../Internal.css'
-// import { QuoteItems } from './QuoteItems'
 
 class Quote extends React.Component {
     render() {
