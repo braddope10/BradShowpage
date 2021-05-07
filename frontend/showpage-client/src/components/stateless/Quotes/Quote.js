@@ -2,23 +2,25 @@ import React from 'react'
 import '../../Internal.css'
 import { QuoteItems } from './QuoteItems'
 
-const QuoteOne = () => {
-    return (
-        <section className='quote-sec-one'>
+class QuoteOne extends React.Component {
+    render() {
+        return (
+            <section className='quote-sec-one'>
             <div className='quote-box quote-style'>
                 <blockquote>
                     <p>
-                        {QuoteItems[0].quote}
+                        {this.props.quote}
                     </p>
                 </blockquote>
             </div>
             <div>
                 <p className='quote-author'>
-                    - {QuoteItems[0].author}
+                    - {this.props.author}
                 </p>
             </div>
         </section>
-    )
+        )
+    }
 }
 
 export default QuoteOne;

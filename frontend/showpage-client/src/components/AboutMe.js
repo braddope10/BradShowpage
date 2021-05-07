@@ -4,7 +4,8 @@ import './Internal.css'
 import ImageSlider from '../slider/ImageSlider'
 import { SliderData } from '../slider/SliderData';
 
-import QuoteOne from './stateless/Quotes/QuoteOne'
+import Quote from './stateless/Quotes/Quote'
+import { QuoteItems } from './stateless/Quotes/QuoteItems'
 // import QuoteTwo from './stateless/Quotes/QuoteTwo'
 // import QuoteThree from './stateless/Quotes/QuoteThree'
 // import QuoteFour from './stateless/Quotes/QuoteFour'
@@ -46,8 +47,7 @@ const AboutMe = () => {
             
             <ParagraphSeven />
             
-            <QuoteOne />
-            
+            <Quote quote={QuoteItems[0].quote} author={QuoteItems[0].author}/>
         </div>
     );
 };
