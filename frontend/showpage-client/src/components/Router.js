@@ -5,7 +5,7 @@ import AboutMe from './AboutMe'
 import ContactInfo from './stateless/ContactInfo'
 import CV from './stateless/CV'
 import Projects from './stateless/Projects'
-import MessageBoard from './MessageBoard'
+import Network from './Network'
 import NavBar from './navbar/NavBar'
 
 const Router = () => {
@@ -16,8 +16,8 @@ const Router = () => {
                     <Route exact path='/' component={AboutMe} />
                     <Route path='/projects' component={Projects} />
                     <Route path='/cv' component={CV} />
+                    <Route path='/network' component={Network} />
                     <Route path='/contact' component={ContactInfo} />
-                    <Route path='/messageboard' component={MessageBoard} />
                 </Switch>
         </div>
     );

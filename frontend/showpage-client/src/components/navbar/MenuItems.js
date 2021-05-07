@@ -15,6 +15,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'Social Network',
+        url: '/network',
+        cName: 'nav-links'
+    },
+    {
         title: 'Contact Info',
         url: '/contact',
         cName: 'nav-links-mobile'
