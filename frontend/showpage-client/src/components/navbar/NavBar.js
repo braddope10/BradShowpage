@@ -35,8 +35,8 @@ class NavBar extends Component {
                         )
                     })}
                 </ul>
-                <Link to='/messageboard'>
-                    <Button>Message Board</Button>
+                <Link to='/contact'>
+                    <Button>Contact Info</Button>
                 </Link>
             </nav>
         )
