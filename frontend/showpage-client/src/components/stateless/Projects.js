@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Internal.css'
-import { ReactTinyLink } from 'react-tiny-link'
+// import { ReactTinyLink } from 'react-tiny-link'
 
 import Quote from './Quotes/Quote'
 import { QuoteItems } from './Quotes/QuoteItems'
@@ -19,12 +19,15 @@ const Projects = () => {
                 <span>S</span>
                 <span>!</span>
             </h1>
-            <div className="tiny-link">
+            <div>
+
+            </div>
+            {/* <div className="tiny-link">
 
                 <ReactTinyLink
                     cardSize="small"
                     showGraphic={true}
-                    header="Personal Showpage (SQL, Ruby, Rails, JavaScript, React, Redux)"
+                    header="Personal Showpage (JavaScript, React)"
                     description="A website where you will be introduced to my personal and professional life!"
                     maxLine={5}
                     minLine={1}
@@ -89,7 +92,7 @@ const Projects = () => {
                     minLine={1}
                     url="https://github.com/braddope10/city_pop"
                 />
-            </div>
+            </div> */}
             <Quote quote={QuoteItems[1].quote} author={QuoteItems[1].author}/>
         </div>
     );
