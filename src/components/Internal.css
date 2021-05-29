@@ -38,42 +38,6 @@
 
 
 
-/* START FORM */
-.form-s {
-    /* margin: 60px 190px; */
-    /* text-align: left; */
-    color: rgb(110, 94, 254);
-
-    /* width: 100%; */
-    padding: 12px 20px;
-    margin: 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.comment-box {
-    height: 200px;
-    width: 400px;
-    font-size:14pt;
-}
-
-.reg-box {
-    height: 36px;
-    width: 400px;
-    font-size:14pt;
-}
-
-.bkg-ops {
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    margin: 20px ;
-}
-/* END FORM */
-
 
 
 /* START MESSAGE LIST */
