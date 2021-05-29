@@ -35,6 +35,22 @@
     user-select: none;
 }
 
+@media screen and (max-width: 960px) { 
+    .image {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .right-arrow { 
+        right: 16px;
+    }
+
+    .left-arrow {
+        left: 16px;
+    }
+    
+}
+
 .slide {
     opacity: 0;
     transition-duration: 1.5s ease-out;
