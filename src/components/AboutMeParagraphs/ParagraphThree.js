@@ -7,7 +7,7 @@ const ParagraphThree = () => {
             During the course of my academic career, 
             I also managed to accrue nearly 6 years of work experience. 
             Most recently, I have had the privilege of working for 
-            Kora Trucking LLC as an Automotive Technician Assistant, 
+            Kora Trucking as an Automotive Technician Assistant, 
             where I learned valuable professional skills 
             such as customer needs assessment, record management, and workflow planning. 
             Being a fluent <strong>Spanish speaker</strong>, It’s been a pleasure learning new business vocabulary 
