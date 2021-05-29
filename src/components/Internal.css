@@ -301,7 +301,7 @@
 
 @media screen and (max-width: 960px) {
     .classic-about {
-        margin: 45px 190px;
+        margin: auto;
         text-align: left;
         color: rgb(110, 94, 254);
         font-size: 7pt;
