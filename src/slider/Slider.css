@@ -1,12 +1,14 @@
 
 .slider {
     position: relative;
-    height: 100vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -70px;
-    margin-bottom: -70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .image {
@@ -15,7 +17,7 @@
 
 .right-arrow {
     position: absolute;
-    top: 47%;
+    top: 45%;
     right: 180px;
     font-size: 3rem;
     color: #927be2;
@@ -26,7 +28,7 @@
 
 .left-arrow {
     position: absolute;
-    top: 47%;
+    top: 45%;
     left: 180px;
     font-size: 3rem;
     color: #927be2;
@@ -38,7 +40,9 @@
 @media screen and (max-width: 960px) { 
     .image {
         max-width: 100%; 
-        height: auto; 
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     .right-arrow { 
