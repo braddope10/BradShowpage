@@ -4,8 +4,8 @@ import './Internal.css'
 import ImageSlider from '../slider/ImageSlider'
 import { SliderData } from '../slider/SliderData';
 
-import Quote from './stateless/Quotes/Quote'
-import { QuoteItems } from './stateless/Quotes/QuoteItems'
+import Quote from './stateless/quoteBox/Quote'
+import { QuoteItems } from './stateless/quoteBox/QuoteItems'
 
 import ParagraphOne from './AboutMeParagraphs/ParagraphOne' 
 import ParagraphTwo from './AboutMeParagraphs/ParagraphTwo'

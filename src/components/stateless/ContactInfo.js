@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
-import Quote from './Quotes/Quote'
-import { QuoteItems } from './Quotes/QuoteItems'
+import Quote from './quoteBox/Quote'
+import { QuoteItems } from './quoteBox/QuoteItems'
 
 const ContactInfo = () => {
     return (

@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Internal.css'
 
-import Quote from './stateless/Quotes/Quote'
-import { QuoteItems } from './stateless/Quotes/QuoteItems'
+import Quote from './stateless/quoteBox/Quote'
+import { QuoteItems } from './stateless/quoteBox/QuoteItems'
 import github from './networkImages/github.png'
 import instagram from './networkImages/instagram.png'
 import linkedin from './networkImages/linkedin.png'

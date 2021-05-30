@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
-import Quote from '../quotes/Quote'
-import { QuoteItems } from '../quotes/QuoteItems'
+import Quote from './quoteBox/Quote'
+import { QuoteItems } from './quoteBox/QuoteItems'
 
 import bradResume from './resumeImage/bradResume.png'
 
@@ -16,7 +16,7 @@ const CV = () => {
             </h1>
 
             <div className="resume-box">
-                <img className="resume-img" src={bradResume} width="49%" height="200%" />
+                <img alt="Bradley's Resume" className="resume-img" src={bradResume} width="49%" height="200%" />
             </div>
 
             <Quote quote={QuoteItems[2].quote} author={QuoteItems[2].author}/>

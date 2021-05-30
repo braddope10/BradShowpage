@@ -3,8 +3,8 @@ import '../Internal.css'
 import { LinkItems } from './projectLinks/LinkItems'
 import LinkPreview from './projectLinks/LinkPreview'
 
-import Quote from './quotes/Quote'
-import { QuoteItems } from './quotes/QuoteItems'
+import Quote from './quoteBox/Quote'
+import { QuoteItems } from './quoteBox/QuoteItems'
 
 const Projects = () => {
     return (

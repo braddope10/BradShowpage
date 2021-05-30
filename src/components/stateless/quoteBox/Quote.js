@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../Internal.css'
-
 class Quote extends React.Component {
     render() {
         return (
