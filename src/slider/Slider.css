@@ -40,11 +40,14 @@
 @media screen and (max-width: 960px) { 
     .image {
         max-width: 100%; 
+        margin: 1px;
     }
 
     .slider {
         margin-top: -30px;
         margin-bottom: -30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .right-arrow { 
