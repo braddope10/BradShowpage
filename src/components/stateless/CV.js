@@ -19,6 +19,10 @@ const CV = () => {
                 <img alt="Bradley's Resume" className="resume-img" src={bradResume} />
             </div>
 
+            <div className="submit-btn">
+                <a href={bradResume} download={bradResume}>Download!</a>
+            </div>
+
             <Quote quote={QuoteItems[2].quote} author={QuoteItems[2].author}/>
         </div>
     );

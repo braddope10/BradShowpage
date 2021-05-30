@@ -58,6 +58,20 @@
     text-align: center;
 }
 
+.submit-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.submit-btn a {
+    color: rgb(110, 94, 254);
+    border: 2px solid rgb(110, 94, 254);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
 @media screen and (max-width: 960px) {
     .resume-img {
         margin-top: 30px;
