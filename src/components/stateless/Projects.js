@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Internal.css'
-// import { ReactTinyLink } from 'react-tiny-link'
+import { LinkItems } from './projectLinks/LinkItems'
+import LinkPreview from './projectLinks/LinkPreview'
 
 import Quote from './Quotes/Quote'
 import { QuoteItems } from './Quotes/QuoteItems'
@@ -19,80 +20,19 @@ const Projects = () => {
                 <span>S</span>
                 <span>!</span>
             </h1>
-            <div>
-
-            </div>
-            {/* <div className="tiny-link">
-
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Personal Showpage (JavaScript, React)"
-                    description="A website where you will be introduced to my personal and professional life!"
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/BradShowpage"
-                />
-
-                <br />
-                
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Hotel Registry App (SQL, Ruby, Rails, JavaScript, React, Redux)"
-                    description="Register new guests. Create & update posts pertaining to room status."
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/reactReduxApp"
-                />
-
-                <br />
-
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Zodiac Sign Calculator (SQL, Ruby, Rails, JavaScript)"
-                    description="An application that requires you to fill out a form in order for you to see you Zodiac sign."
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/zodiac_javascript"
-                />
-
-                <br />
-
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Truck Driver App (SQL, Ruby, Rails)"
-                    description="An application that can be used as a tool by truckers around the nation to create a detailed record of their varying day-to-day shifts."
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/my_trucking"
-                />
-
-                <br />
-
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Pokemon Collector (SQL, Ruby, Sinatra)"
-                    description="Allows pokemon card collectors to virtualize their collection while also giving them a chance to see other great collections."
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/sinatra-project"
-                />
-                <br />
-
-                <ReactTinyLink
-                    cardSize="small"
-                    showGraphic={true}
-                    header="Nevada City Population CLI (Ruby, Nokogiri)"
-                    description="A gem that you interact with, using the terminal, to see the populations of different cities in Nevada."
-                    maxLine={5}
-                    minLine={1}
-                    url="https://github.com/braddope10/city_pop"
-                />
-            </div> */}
+            
+            <LinkPreview url={LinkItems[0].url} header={LinkItems[0].header} code={LinkItems[0].code} summary={LinkItems[0].summary} />
+            
+            <LinkPreview url={LinkItems[1].url} header={LinkItems[1].header} code={LinkItems[1].code} summary={LinkItems[1].summary} />
+            
+            <LinkPreview url={LinkItems[2].url} header={LinkItems[2].header} code={LinkItems[2].code} summary={LinkItems[2].summary} />
+            
+            <LinkPreview url={LinkItems[3].url} header={LinkItems[3].header} code={LinkItems[3].code} summary={LinkItems[3].summary} />
+            
+            <LinkPreview url={LinkItems[4].url} header={LinkItems[4].header} code={LinkItems[4].code} summary={LinkItems[4].summary} />
+            
+            <LinkPreview url={LinkItems[5].url} header={LinkItems[5].header} code={LinkItems[5].code} summary={LinkItems[5].summary} />
+            
             <Quote quote={QuoteItems[1].quote} author={QuoteItems[1].author}/>
         </div>
     );

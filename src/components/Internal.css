@@ -13,6 +13,15 @@
     font-size: 1.1em;
     text-shadow: 1px 2px 3px grey;
 }
+
+@media screen and (max-width: 960px) {
+    .classic-about {
+        margin: 45px 16px;
+        text-align: center;
+        color: rgb(110, 94, 254);
+        font-size: 20px;
+    }
+}
 /* ABOUT ME STRONG TAG: END */
 
 
@@ -44,48 +53,44 @@
 /* END CONTACT */
 
 
-/* START MESSAGE LIST */
-.u-text {
-    margin: 0px 60px;
+/* START: LINK PREVIEW */
+
+
+
+.link-div {
+    margin: 40px 40% 40px 40%;
 }
 
-.each-message {
-    padding: 30px 30px 50px 30px;
-    background: linear-gradient(90deg,rgb(64, 60, 146) -30%, rgb(44, 43, 54) 100%);
-    border-style: outset;
-    border-top: 12px solid rgb(240, 235, 233);
-    border-right: 12px solid rgb(146, 145, 145);
-    border-bottom: 12px solid rgb(133, 132, 132);
-    border-left: 12px solid rgb(226, 224, 224);
+@media screen and (max-width: 960px) {
+    .link-div {
+        margin: 40px 20px 40px 20px;
+    }
+}
+
+.link-box {
     text-align: center;
-    list-style-type: none;
-    margin-bottom: 20px;
-    margin-right: 80px;
-    margin-left: 80px;
-    color: white;
-    word-break: break-all;
-}
-/* END MESSAGE LIST */
-
-
-/* START FORM SUBMIT BUTTON */
-.sub-btn {
-    width: 100%;
-    background-color:  #7046a7;
-    color: white;
-    padding: 16px 120px;
-    margin: 18px 80px, 18px, 80px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-.sub-btn:hover {
-    color: white;
-    background-color: rgb(64, 60, 146);
+.link-header {
+    color: rgb(110, 94, 254);
+    font-size: 20px;
+    text-shadow: 1px 2px 3px grey;
+    text-align: center;
 }
-/* END FORM SUBMIT BUTTON */
 
+.link-code {
+    font-size: 12px;
+    text-align: center;
+}
+
+.link-summary {
+    font-size: 15px;
+}
+
+.link-url {
+    font-size: 10px;
+}
+/* END: LINK PREVIEW */
 
 
 /* WACKY LINE CODE: START */
@@ -280,26 +285,4 @@
 
 
 /* END: NETWORK */
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 960px) {
-    .classic-about {
-        margin: 45px 16px;
-        text-align: center;
-        color: rgb(110, 94, 254);
-        font-size: 20px;
-    }
-}
-
-
-
 
