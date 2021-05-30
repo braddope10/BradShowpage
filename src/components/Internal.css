@@ -59,6 +59,9 @@
 
 .link-div {
     margin: 40px 40% 40px 40%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 960px) {
@@ -68,27 +71,33 @@
 }
 
 .link-box {
-    text-align: center;
+    color: rgb(110, 94, 254);
 }
 
 .link-header {
-    color: rgb(110, 94, 254);
     font-size: 20px;
     text-shadow: 1px 2px 3px grey;
     text-align: center;
+    margin-top: 20px;
 }
 
 .link-code {
     font-size: 12px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .link-summary {
     font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .link-url {
     font-size: 10px;
+    margin-bottom: 20px;
 }
 /* END: LINK PREVIEW */
 
