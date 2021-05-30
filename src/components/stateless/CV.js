@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Internal.css'
 
-import Quote from './quotes/Quote'
-import { QuoteItems } from './quotes/QuoteItems'
+import Quote from '../quotes/Quote'
+import { QuoteItems } from '../quotes/QuoteItems'
 
 import bradResume from './resumeImage/bradResume.png'
 
