@@ -60,10 +60,11 @@
 
 @media screen and (max-width: 960px) {
     .resume-img {
-        margin: 30px 5% 30px 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
         text-align: center;
         height: 100%;
-        width: 85%;
+        width: 95%;
     }
 }
 /* END: RESUME */
