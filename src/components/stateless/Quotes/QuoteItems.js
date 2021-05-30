@@ -16,7 +16,7 @@ export const QuoteItems = [
         author: "Unknown"
     },
     {
-        quote: "Failure is the only opportunity to beginn again.",
+        quote: "Failure is the only opportunity to begin again.",
         author: "Uncle Iroh"
     }
 ]

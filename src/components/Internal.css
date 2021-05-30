@@ -7,19 +7,13 @@
 }
 /* END STANDARD */
 
+
 /* ABOUT ME STRONG TAG: START */
 .classic-about strong {
     font-size: 1.1em;
     text-shadow: 1px 2px 3px grey;
 }
 /* ABOUT ME STRONG TAG: END */
-
-/* ABOUT ME A TAG: START */
-/* .classic-about a {
-    text-decoration: none;
-    color: grey;
-} */
-/* ABOUT ME A TAG: END */
 
 
 /* START CONTACT  */
@@ -30,14 +24,24 @@
     font-size: 2em;
 }
 
+.classic-contact strong {
+    font-size: 25px;
+}
+
 .link-dec a {
     color: rgb(110, 94, 254);
     text-decoration: none;
 }
+
+@media screen and (max-width: 960px) {
+    .classic-contact {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+}
 /* END CONTACT */
-
-
-
 
 
 /* START MESSAGE LIST */
@@ -92,7 +96,7 @@
     text-align: center;
     font-family: Futura, sans-serif;
     font-weight: 900;
-	font-size: 80px;
+	font-size: 60px;
 }
 
 .i-span {
@@ -173,7 +177,8 @@
     padding : 20px; 
     position : relative; 
     width : 300px; 
-  } 
+    text-align: center;
+} 
   
 .quote-box p {
   margin : 0; 
@@ -252,6 +257,29 @@
     width: 50%;
 }
 /* END: TINY LINK */
+
+
+/* START: NETWORK */
+
+.freepik {
+    margin-top: 200px;
+    font-size: 10px;
+    text-align: center;
+    color: #7356c2;
+}
+
+.freepik a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.social-media {
+    text-align: center;
+    margin: 40px;
+}
+
+
+/* END: NETWORK */
 
 
 
