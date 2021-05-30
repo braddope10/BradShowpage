@@ -53,10 +53,23 @@
 /* END CONTACT */
 
 
+/* START: RESUME */
+.resume-box {
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+    .resume-img {
+        margin: 30px 5% 30px 5%;
+        text-align: center;
+        height: 100%;
+        width: 85%;
+    }
+}
+/* END: RESUME */
+
+
 /* START: LINK PREVIEW */
-
-
-
 .link-div {
     margin: 40px 40% 40px 40%;
     border: 2px solid rgb(110, 94, 254);
