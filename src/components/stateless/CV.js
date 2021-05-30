@@ -16,7 +16,7 @@ const CV = () => {
             </h1>
 
             <div className="resume-box">
-                <img alt="Bradley's Resume" className="resume-img" src={bradResume} width="49%" height="200%" />
+                <img alt="Bradley's Resume" className="resume-img" src={bradResume} />
             </div>
 
             <Quote quote={QuoteItems[2].quote} author={QuoteItems[2].author}/>
