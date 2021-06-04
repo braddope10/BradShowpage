@@ -1,8 +1,8 @@
 /*  START STANDARD */
 .classic-about {
     margin: 45px 190px;
-    text-align: left;
-    color: rgb(110, 94, 254);
+    text-align: center;
+    color: #A87BE2;
     font-size: 20pt;
 }
 /* END STANDARD */
@@ -11,6 +11,7 @@
 /* ABOUT ME STRONG TAG: START */
 .classic-about strong {
     font-size: 1.1em;
+    color: blueviolet;
     text-shadow: 1px 2px 3px grey;
 }
 
@@ -29,16 +30,17 @@
 .classic-contact {
     margin: 45px 190px;
     text-align: center;
-    color: rgb(110, 94, 254);
+    color: #A87BE2;
     font-size: 2em;
+    font-weight: bold;
 }
 
 .classic-contact strong {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .link-dec a {
-    color: rgb(110, 94, 254);
+    color: #A87BE2;
     text-decoration: none;
 }
 
@@ -48,6 +50,10 @@
         margin-top: 40px;
         margin-bottom: 40px;
         font-size: 20px;
+    }
+
+    .classic-contact strong {
+        font-size: 15px;
     }
 }
 /* END CONTACT */
@@ -65,11 +71,18 @@
 }
 
 .submit-btn a {
-    color: rgb(110, 94, 254);
-    border: 2px solid rgb(110, 94, 254);
+    color: blueviolet;
+    border: 2px solid #A87BE2;
     border-radius: 10px;
-    font-size: 20px;
-    padding: 15px 15px;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+
+.submit-btn a:hover {
+    color: white;
+    transition: all .4s ease;
+    background-color: rgb(44, 43, 54);
+    border: 2px solid rgb(44, 43, 54);
 }
 
 @media screen and (max-width: 960px) {
@@ -87,26 +100,44 @@
 /* START: LINK PREVIEW */
 .link-div {
     margin: 40px 40% 40px 40%;
-    border: 2px solid rgb(110, 94, 254);
+    border: 2px solid #A87BE2;
     text-align: center;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 960px) {
+
+@media screen and (max-width: 1300px) {
     .link-div {
         margin: 40px 20px 40px 20px;
     }
 }
 
 .link-box {
-    color: rgb(110, 94, 254);
+    color: #A87BE2;
+}
+
+
+.link-box:hover {
+    color: white;
+    transition: all .4s ease;
+}
+
+.link-div:hover {
+    background-color: rgb(44, 43, 54);
+    border: 2px solid rgb(44, 43, 54);
+    transition: all .4s ease;
 }
 
 .link-header {
+    color: blueviolet;
     font-size: 20px;
     text-shadow: 1px 2px 3px grey;
     text-align: center;
     margin-top: 20px;
+}
+
+.link-header:hover {
+    color: white;
 }
 
 .link-code {
@@ -131,7 +162,7 @@
 
 
 /* WACKY LINE CODE: START */
-.wacky-line {
+/* .wacky-line {
     color: rgb(110, 94, 254);
     font-size: 4em;
     margin: 60px 10px 15px;
@@ -139,11 +170,40 @@
     font-family: Futura, sans-serif;
     font-weight: 900;
 	font-size: 60px;
-}
+} */
 
 .i-span {
-    margin-left: 40px;
+    margin-right: 40px;
 }
+
+/* WACKY-PROJECT: START */
+.wacky-text {
+    color: rgb(110, 94, 254);
+    /* font-size: 4em; */
+    margin: 60px 60px 15px;
+    text-align: center;
+    font-family: Futura, sans-serif;
+    font-weight: 900;
+	font-size: 40px;
+}
+
+@media screen and (max-width: 960px) {
+    .wacky-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .wacky-text h1 {
+        /* position: absolute; */
+        text-align: center;
+    }
+
+    .i-span {
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+/* WACKY-PROJECT: END */
 
 @keyframes ani {
     0% {
@@ -238,11 +298,11 @@
 } 
 
 .quote-style blockquote:after {
-    background: none repeat scroll 0 0 rgba(139, 106, 230, 0.8);
+    background: none repeat scroll 0 0 #A87BE2;
     border-radius: 50% 50% 50% 50%;
-    color: rgba(255, 255, 255, 0.5);
+    color: blueviolet;
     content: "❞";
-    font-family: 'icons';
+    /* font-family: 'icons'; */
     font-size: 70px;
     height: 130px;
     left: 50%;
@@ -250,7 +310,7 @@
     margin-left: -65px;
     position: absolute;
     text-align: center;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 1px 1px #A87BE2;
     top: 0;
     width: 130px;
 }
@@ -269,23 +329,22 @@
 }
 
 .quote-style blockquote p {
-  background : none repeat scroll 0 0 rgba(255, 255, 255, 0.5); 
-  box-shadow : 0 -6px 0 rgba(142, 108, 235, 0.2); 
-  color : rgba(116, 54, 187, 0.8); 
+  box-shadow : 0 -6px 0 rgba(163, 108, 235, 0.1); 
+  color : #A87BE2; 
   display : inline; 
-  font-family : Baskerville, Georgia, serif; 
   font-style : italic; 
-  font-size : 28px; 
+  font-size : 20px; 
   line-height : 46px; 
-  text-shadow : 0 1px 1px rgba(0, 0, 0, 0.5);  
+  text-shadow : 0 1px 1px #A87BE2;  
 } 
 
 .quote-author {
-  color : #7356c2; 
+  color : #A87BE2; 
   font-size : 18px; 
-  font-weight : bold; 
+  /* font-weight : bold;  */
+  /* font-style: italic; */
   padding-top : 10px; 
-  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.1); 
+  text-shadow : 0 1px 1px #A87BE2; 
   text-transform : uppercase; 
   text-align: center;
 }  
@@ -318,6 +377,17 @@
 .social-media {
     text-align: center;
     margin: 40px;
+    transform: scale(0.6);
+}
+
+.social-media:hover {
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1300px) {
+    .social-media {
+        transform: scale(1);
+    }
 }
 
 

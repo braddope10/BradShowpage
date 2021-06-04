@@ -9,18 +9,17 @@ import bradResume from './resumeImage/bradResume.png'
 const CV = () => {
     return (
         <div className='classic-text'>
-            <h1 className='wacky-line'>
-                <span>C</span>
-                <span>V</span>
-                <span>!</span>
-            </h1>
-
+            <div className="wacky-text">
+                <h1 className='wacky-line'>
+                    <span>CV</span>
+                </h1>
+            </div>
             <div className="resume-box">
                 <img alt="Bradley's Resume" className="resume-img" src={bradResume} />
             </div>
 
             <div className="submit-btn">
-                <a href={bradResume} download={bradResume}>Download!</a>
+                <a href={bradResume} download={bradResume}>DOWNLOAD</a>
             </div>
 
             <Quote quote={QuoteItems[2].quote} author={QuoteItems[2].author}/>

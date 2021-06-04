@@ -9,18 +9,12 @@ import { QuoteItems } from './quoteBox/QuoteItems'
 const Projects = () => {
     return (
         <div className='classic-text'>
-            <h1 className='wacky-line'>
-                <span>P</span>
-                <span>R</span>
-                <span>O</span>
-                <span>J</span>
-                <span>E</span>
-                <span>C</span>
-                <span>T</span>
-                <span>S</span>
-                <span>!</span>
-            </h1>
-            
+            <div className="wacky-text" >
+                <h1 className='wacky-line'>
+                    <span>PROJECTS</span>
+                </h1>
+            </div>
+
             <LinkPreview url={LinkItems[0].url} header={LinkItems[0].header} code={LinkItems[0].code} summary={LinkItems[0].summary} />
             
             <LinkPreview url={LinkItems[1].url} header={LinkItems[1].header} code={LinkItems[1].code} summary={LinkItems[1].summary} />

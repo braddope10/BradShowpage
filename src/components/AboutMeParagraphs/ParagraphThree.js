@@ -5,7 +5,7 @@ const ParagraphThree = () => {
     return (
         <p className='classic-about'>
             During the course of my academic career, 
-            I also managed to accrue nearly 6 years of work experience. 
+            I've also managed to accrue nearly 6 years of work experience. 
             Most recently, I have had the privilege of working for 
             Kora Trucking as an Automotive Technician Assistant, 
             where I learned valuable professional skills 

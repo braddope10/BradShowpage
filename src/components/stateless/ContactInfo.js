@@ -7,21 +7,12 @@ import { QuoteItems } from './quoteBox/QuoteItems'
 const ContactInfo = () => {
     return (
         <div>
-            <h1 className='wacky-line'>
-                <span>C</span>
-                <span>O</span>
-                <span>N</span>
-                <span>T</span>
-                <span>A</span>
-                <span>C</span>
-                <span>T</span>
-                
-                <span className='i-span'>I</span>
-                <span>N</span>
-                <span>F</span>
-                <span>O</span>
-                <span>!</span>
-            </h1>
+            <div className="wacky-text" >
+                <h1 className="wacky-line">
+                    <span className="i-span">CONTACT</span>
+                    <span>INFO</span>
+                </h1>
+            </div>
             <p className='classic-contact'>
                 <strong>Name</strong>
                 <br />

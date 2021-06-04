@@ -19,14 +19,11 @@ import ParagraphSeven from './AboutMeParagraphs/ParagraphSeven'
 const AboutMe = () => {
     return (
         <div>
-            <h1 className='wacky-line'>
-                <span>H</span>
-                <span>E</span>
-                <span>L</span>
-                <span>L</span>
-                <span>O</span>
-                <span>!</span>
-            </h1>
+            <div className="wacky-text">
+                <h1 className='wacky-line'>
+                    <span>HELLO</span>
+                </h1>
+            </div>
             <ParagraphOne />
             
             <ParagraphTwo />
