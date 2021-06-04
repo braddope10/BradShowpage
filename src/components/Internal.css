@@ -126,19 +126,19 @@
     background-color: rgb(44, 43, 54);
     border: 2px solid rgb(44, 43, 54);
     transition: all .4s ease;
+    color: white;
 }
 
 .link-header {
-    color: blueviolet;
     font-size: 20px;
     text-shadow: 1px 2px 3px grey;
     text-align: center;
     margin-top: 20px;
 }
 
-.link-header:hover {
+/* .link-header:hover {
     color: white;
-}
+} */
 
 .link-code {
     font-size: 12px;
